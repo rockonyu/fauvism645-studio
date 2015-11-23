@@ -1,18 +1,29 @@
-  body,
-  html {
-      overflow: auto;
-      font-family: 'Open Sans', '微軟正黑體', sans-serif!important;
-      font-size: 16px;
-  }
-  
-  section {
-      margin: 0;
-  }
-  
-  section article.proList .boxHd .detail img {
-      min-width: 360px;
-  }
-  
-  section article.proList .boxBd .proBox h3 {
-      font-size: 25px;
-  }
+body,
+html {
+    overflow: auto;
+    font-family: 'Open Sans', '微軟正黑體', sans-serif!important;
+    font-size: 16px;
+}
+
+section {
+    margin: 0;
+}
+
+section article.proList .boxHd .detail img {
+    min-width: 360px;
+}
+
+section article.proList .boxBd .proBox h3 {
+    font-size: 25px;
+}
+
+@media screen and (min-width: 980px) {
+    section article.proList .boxHd .detail img {
+    	margin-top: -30vh;
+	}
+
+	section article.proList .boxHd .detail {
+    	overflow: hidden;
+    	max-height: 75vh;
+	}
+}
