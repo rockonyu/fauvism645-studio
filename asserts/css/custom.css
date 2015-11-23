@@ -1,0 +1,18 @@
+  body,
+  html {
+      overflow: auto;
+      font-family: 'Open Sans', '微軟正黑體', sans-serif!important;
+      font-size: 16px;
+  }
+  
+  section {
+      margin: 0;
+  }
+  
+  section article.proList .boxHd .detail img {
+      min-width: 360px;
+  }
+  
+  section article.proList .boxBd .proBox h3 {
+      font-size: 25px;
+  }
