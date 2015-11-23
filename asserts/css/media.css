@@ -1,0 +1,1997 @@
+@charset "utf-8";
+/*-----------------------------------------------------------------------------
+[TABLE OF CONTENTS]
+    +media
+-----------------------------------------------------------------------------*/
+/* media 
+*----------------------------------------------------------------------------*/
+/**
+*
+* Desktops
+*
+**/
+@media only screen 
+and (max-width : 1700px) {
+section article.bannerBox .bannerFt.home .conboxbd,
+section article.bannerBox .bannerFt.busines .conboxbd {
+    width: 45%;
+}
+/*
+section article.bannerBox .bannerFt.busines .con .conbox {
+    width: 45%;
+}*/
+}
+
+@media only screen 
+and (max-width : 1500px) {
+header .main .logo { left: 3%;}
+header .main nav { margin-right: 3%;}
+}
+
+@media only screen 
+and (max-width : 1440px) {
+section article.bannerBox .bannerFt.home .con .title span {
+    display: block;
+}
+section article.bannerBox.Cseries .bannerFt.home .con .title span {
+    display: inline;
+}
+/*
+section article.bannerBox .bannerFt.home .conboxbd {
+    width: 60%;
+}*/
+article.seriesList .item .conBox .title,
+article.seriesList .item .conBoxMin .title,
+article.serviceList .item .conBox .title {
+    height: 166px;
+}
+section article.proList .boxBd {padding: 35px 40px 25px 40px;}
+section article.proList.examplesList .boxBd { padding: 91px 40px 41px 40px;}
+section article.proList .boxBd .proBox h3 { margin: 0 0 50px;}
+section article.proList .boxBd .msgBox { bottom: 30px;}
+
+article.serviceContent .bg.RE,
+article.serviceContent .bg.SV,
+article.serviceContent .bg.OLR,
+article.serviceContent .bg.DIY,
+article.serviceContent .bg.FAQ,
+article.serviceContent .bg.US,
+article.serviceContent .bg.CD,
+article.serviceContent .bg.WC  {
+	-moz-background-size: 1440px auto;
+	-webkit-background-size: 1440px auto;
+	-o-background-size: 1440px auto;
+	background-size: 1440px auto;
+	/*
+	-moz-background-size:cover;
+	-webkit-background-size:cover;
+	-o-background-size:cover;
+	background-size:cover;*/
+}
+
+}
+
+
+@media only screen 
+and (max-width : 1360px) {
+section article.bannerBox .bannerFt.home .con .title,
+section article.bannerBox .bannerFt.busines .con .title {
+    font-size: 42px;
+}
+
+}
+
+@media only screen 
+and (max-width : 1360px) {
+article.howChoose .howChooseBd a.close {
+    background: url(images/icon/icon_howChooseClose_bk.png) no-repeat right center;
+}
+article.howChoose .howChooseBd .chooseBox,
+article.howChoose .howChooseBd .explainBox {
+    width: 100%;
+    padding: 0;
+	display: block; 
+	*display: block;
+}
+article.howChoose .howChooseBd .main {
+    position: relative;
+}
+section article.unitMainList .bxslider .textLr {
+    left: 5%;
+    right: 65%;
+}
+section article.unitMainList .bxslider .textRl {
+    left: 65%;
+    right: 5%;
+}
+article.seriesList .item .photo .title,
+section article.bannerBox .bannerHd .title {
+    right: 5%;
+}
+article.seriesList .item .photo .title .icon,
+section article.bannerBox .bannerHd .title .icon {
+    width: 85px;
+}
+article.seriesList .item .photo .title .ser,
+section article.bannerBox .bannerHd .title .ser {
+    font-size: 70px;
+}
+article.seriesList .item .photo .title .ser.tw,
+section article.bannerBox .bannerHd .title .ser.tw {
+    font-size: 62px;
+}
+article.seriesList .item .photo .title .en,
+section article.bannerBox .bannerHd .title .en {
+    font-size: 30px;
+    line-height: 32px;
+}
+article.seriesList .item .photo .title .ch,
+section article.bannerBox .bannerHd .title .ch {
+    font-size: 26px;
+    line-height: 30px;
+}
+article.serviceList .item .photo .box.odd {
+    background-position: left center;
+	/*
+	-moz-background-size: 1440px auto;
+	-webkit-background-size: 1440px auto;
+	-o-background-size: 1440px auto;
+	background-size: 1440px auto;
+	*/
+}
+
+
+
+
+}
+@media only screen 
+and (max-width : 1280px) {
+section article.proList .conBd .photo { width: 50%;}
+section article.proList .conBd .text { width: 50%;}
+section article.proList .conBd .photo .photobd {width: 570px;height: 410px;}
+section article.proList .conBd .photo .photobd img { max-width: 570px; max-height: 410px;}
+section article.proList .taskBoxbd .explainbox {
+    margin: -40px auto 40px auto;
+}
+section article.proList .taskBoxbd .explainbox .explain {
+    width: auto;
+    margin: 0 auto;
+    height: auto;
+}
+section article.proList .taskBoxbd .explainbox .explain .reach {
+    position: relative;
+    top: auto;
+    left: auto;
+    right: auto;
+    width: auto;
+    margin: 20px 0 0 0;
+}
+section article.clientsList .container .item {
+    width: 25%;
+}
+article.serviceList .item .photo .title {
+    left: 5%;
+    width: 90%;
+    margin: -120px 0 0 0;
+}
+
+
+
+}
+@media only screen 
+and (max-width : 1200px) {
+section article.productList .container .item {
+    width: 33.3%;
+}
+section article.productList .container.max .item {
+    width: 50%;
+}
+section article.otherBox.home .container .item {
+    width: 33.3%;
+}
+/*
+section article.bannerBox .bannerFt.home .conboxbd {
+    width: 70%;
+}*/
+}
+@media only screen 
+and (max-width : 1190px) {
+}
+
+
+@media only screen 
+and (max-width : 1140px) {
+section article.bannerBox .bannerFt.home .con,
+section article.bannerBox .bannerFt.busines .con {
+    width: 100%;
+	display: block; 
+	*display: block;
+}
+
+section article.bannerBox .bannerFt.home .banner,
+section article.bannerBox .bannerFt.busines .banner {
+    display: none;
+}
+section article.bannerBox .bannerFt.home .con .title,
+section article.bannerBox .bannerFt.busines .con .title {
+    font-size: 70px;
+}
+section article.bannerBox .bannerFt .con.end .conbox,
+section article.bannerBox .bannerFt .conbox {
+    /*display: none;*/
+}
+section article.bannerBox .bannerFt .con.start .conboxMain {
+    left: 0;
+}
+section article.bannerBox .bannerFt.home .con img.product {
+	top: 260px !important;
+    width: 80%;
+    margin: 0 10%;
+}
+section article.bannerBox .bannerFt.busines .con img.product {
+	top: 40px !important;
+    width: 80%;
+    margin: 0 10%;
+}
+section article.bannerBox .bannerFt2.home .photo img,
+section article.bannerBox .bannerFt2.busines .photo img {
+    filter:alpha(opacity=0);
+    -moz-opacity: 0;
+    opacity: 0;
+}
+section article.bannerBox .bannerFt2.home .photo {
+    background: #e5e7f3;
+}
+section article.bannerBox .bannerFt2.busines .photo {
+    background: #323232;
+}
+
+
+}
+
+
+@media only screen 
+and (max-width : 1040px) {
+section article aside.subnav,
+section article.recordBox .productList,
+section article.orderConBox .productList,
+section article.orderConBox .orderList,
+section article.personalBox .memberPersonal {
+    float: none;
+    width: auto;
+    margin: 0 5% 0 0;
+}
+section article aside.subnav {
+    padding: 60px 0 0 0;
+    margin: 0 5%;
+}
+section article.orderConBox .productList,
+section article.orderConBox .orderList,
+section article.personalBox .memberPersonal {
+    /*margin: 60px 0 0 0;*/
+    margin: 0 5%;
+    padding: 60px 0 0 0;
+}
+section article.personalBox .memberPersonal {
+    padding: 20px 0 0 0;
+}
+section article.proList .boxBd .btn {
+	position: relative;
+	top: auto;
+	right: auto;
+	width: auto;
+	margin: 20px 0 0 0;
+}
+section article.proList .boxBd .btn a {
+    margin: 0;
+}
+section article.proList .boxBd .msgBox {
+	position: relative;
+	bottom: auto;
+	right: auto;
+	margin: 20px 0 0 0;
+}
+section article.proList .boxBd .msgBox a {
+    margin: 0 15px 0 0;
+}
+}
+
+@media only screen 
+and (max-width : 1024px) {
+.lineBox {
+    display: none;
+}
+article.howChoose .howChooseBd a.close {
+    right: 10px;
+}
+footer .footerFt {
+    padding: 20px 40px 20px;
+}
+header .main .logo { left: 4%;}
+header .main nav { margin-right: 4%;}
+header .main nav ul.nav {
+    position: fixed;
+    top: 91px;
+    left: 0;
+    width: 100%;
+    overflow: auto;
+    overflow-x: hidden;    
+    padding: 0;
+    text-align: left;
+	display: none;
+	*display: none;
+    background: #fff;
+    -webkit-overflow-scrolling: touch;
+    font-size:16px;
+}
+header .main nav ul li {
+    padding: 0 10px;
+    line-height: 16px;
+}
+header .main nav ul li.cart {
+    padding: 0 30px 0 10px;
+}
+header .main nav ul.nav li {
+    display: block;
+    padding: 0 20px;
+    line-height: 56px;
+    text-align: left;
+    border-bottom: 1px #d0d0d0 solid;
+}
+header .main nav ul li.menu {
+	display: table-cell;
+}
+header .main nav ul li.open a.product img {
+    display: inline-block;
+}
+header .main nav ul li.open a img {
+	display: inline-block;
+}
+header .subnav {
+    position: relative;
+    top: auto;
+    height: auto;
+    border: 0;
+    display: block;
+}
+
+header .main nav ul li.loginMsg {
+    display: block;
+}
+header .main nav ul li.login
+,header .main nav ul li.logoff {
+    display: none;
+}
+
+
+section article.bannerBox .bannerFt .conbox {
+	background: url(images/icon/icon_info_s.gif) no-repeat right 90px;
+}
+section article.bannerBox .bannerFt .con.end .conbox {
+    background-position: right top;
+	background-attachment: scroll;
+}
+section article.bannerBox .bannerFt .conbox h2,
+section article.bannerBox .bannerFt .conbox p {
+	opacity: 1;
+}
+section article.bannerBox .bannerFt .con.start .conboxMain {
+    right: 20px;
+    left: 20px;
+}
+section article.bannerBox .bannerFt .con.end .conboxMain {
+    right: 20px;
+    left: 20px;
+}
+section article.bannerBox .bannerFt.home .conboxbd,
+section article.bannerBox .bannerFt.busines .conboxbd {
+    padding: 60px 0;
+}
+
+.page section,
+.homePage section,
+.homePageW section {
+    margin: 60px 0 0 0;
+}
+
+
+
+
+
+
+}
+
+@media only screen 
+and (max-width : 1020px) {
+section article.productConBox .productlist,
+section article.productConBox .detailBox { 
+	display: block; 
+	*display: block;
+    width: 80%;
+    padding: 0;
+    margin: 0 auto;
+}
+section article.productConBox.first .main {
+    padding: 60px 0;
+}
+section article.productConBox .detailBox { 
+    width: 75%;
+    margin: 40px auto 0 auto;
+}
+section article.otherBox.busines .container .item {
+    width: 50%;
+}
+section article.clientsList .container .item {
+    width: 33.3%;
+}
+section article.proList .conBd .photo,
+section article.proList .conBd .text {
+	display: block; 
+	*display: block;
+    width: 100%;
+}
+section article.proList .conBd .photo .photobr {
+    margin: 0;
+    padding: 40px 0;
+}
+section article.proList .conBd .text .textbd {
+    padding: 40px;
+}
+section article.proList .conBd .photo .photobd {
+	display: block;
+	margin: 0 auto;
+    height: auto;
+    width: auto;
+}
+section article.proList .conBd .photo .photobd img {
+    width: 100%;
+    max-width: 570px;
+    max-height: none;
+}
+section article.unitMainList .bxslider h2 span.green,
+section article.unitMainList .bxslider h2 em { font-size: 24px;}
+section article.unitMainList .bxslider h2 span.blue { font-size: 80px;}
+section article.unitMainList.home .bxslider .part1 .bg_img,
+section article.unitMainList.home .bxslider .part2 .bg_img {
+	top: 280px !important;
+	-webkit-background-size: 200px auto !important;
+	-o-background-size: 200px auto !important;
+	background-size: 200px auto !important;
+}
+section article.unitMainList.home .bxslider .part3 .bg_img {
+	top: 100px !important; 
+	background: url(images/banner/index_home_part3_m_1920.png) no-repeat 35% center !important;
+	-moz-background-size:cover !important;
+	-webkit-background-size:cover !important;
+	-o-background-size:cover !important;
+	background-size:cover !important; 	
+}
+/*
+section article.unitMainList.business .bxslider .part1 .bg_img {
+	top: 120px !important;
+	background: url(images/banner/businessProduct.png) no-repeat center; 
+	-webkit-background-size: 150% auto !important;
+	-o-background-size: 150% auto !important;
+	background-size: 150% auto !important;
+}*/
+section article.unitMainList .bxslider .textCe {
+    left: 15%;
+    right: 15%;
+}
+section article.unitMainList .bxslider li.part3 .textRl {
+    display: none;
+}
+section article.unitMainList .bxslider li.part3 .icon1,
+section article.unitMainList .bxslider li.part3 .icon2 {
+    left: 30%;
+    display: none !important;
+}
+section article.unitMainList .bxslider li.part3 .icon1 {
+    top: 460px;
+    margin: 0 0 0 -100px;
+}
+section article.unitMainList .bxslider li.part3 .icon2 {
+    top: 420px;
+    margin: 0 0 0 180px;
+}
+
+}
+@media only screen 
+and (max-width : 960px) {
+
+section article.bannerBox .bannerFt.home .banner {
+	display: none;
+}
+section article.bannerBox .bannerFt.home .con {
+    width: 100%;
+}
+section article.bannerBox .bannerFt.home .con,
+section article.bannerBox .bannerFt2.busines {
+    /*display: none;*/
+}
+
+
+
+section article.productList .container .item {
+    width: 50%;
+}
+section article.shoppingBox .otherOrder .invoiceBox,
+section article.shoppingBox .otherOrder .installBox { 
+    float: none;
+    width: auto;
+	margin: 20px 0 0 0;
+}
+section article.shoppingBox .otherOrder .otherBox {
+    height: auto !important;
+}
+section article.otherBox .owl-carousel { 
+    width: 70%;
+}
+/*
+section article.bannerBox .bannerFt.home .conboxbd {
+    width: 60%;
+    padding: 80px 60px;
+}
+*/
+}
+@media only screen 
+and (max-width : 900px) {
+section article.productList .descBox .iconBox,
+section article.productConBox .descBox .iconBox,
+section article.orderConBox .productList .descBox .iconBox {
+    position: relative;
+    top: auto;
+    margin: 40px 0 0 0;
+}
+section article.productList .descBox .iconBox span,
+section article.productConBox .descBox .iconBox span,
+section article.orderConBox .productList .descBox .iconBox span {
+	margin: 0 5px;
+}
+section article.orderConBox .otherOrder .payerBox,
+section article.orderConBox .otherOrder .installBox { 
+    float: none;
+    width: auto;
+	margin: 20px 0 0 0;
+}
+
+section article.proList .conFt .text .shopInfo .box {
+    float: none;
+    width: 100%;
+}
+section article.newsList .newsBox .owl-theme .owl-nav .owl-prev{left: 0;}
+section article.newsList .newsBox .owl-theme .owl-nav .owl-next{right: 0;}
+article.serviceContent .title h2 {
+    font-size: 42px;
+    line-height: 48px;
+}
+
+
+section article.unitTitle .register {
+    padding: 0 40px 0 40px;
+}
+section article.unitTitle .msgBox {
+    padding: 0 40px 0 40px;
+	display: block; 
+}
+section article.unitTitle .clock {
+    position: relative;
+    top: auto;
+    right: auto;
+    text-align: left;
+    margin: 20px 0 0 0;
+    padding: 0 0 0 40px;
+}
+section article.unitTitle .clock span {
+    display: inline;
+    padding: 0 0 0 10px;
+}
+section article.unitTitle .btn {
+    position: relative;
+    top: auto;
+    right: auto;
+    display: block;
+    text-align: left;
+    margin: 20px 0 0 0;
+    padding: 0 0 0 40px;
+}
+section article.unitTitle .btn span {
+    display: block;
+    margin: 0 0 40px 0;
+}
+section article.unitTitle .btn a {
+    margin: 0 5px 0 0;
+}
+section article.unitTitle .infoBox .btn {
+    top: auto;
+}
+section article.unitTitle .msgBox ul.surveyBox li {
+    display: block;
+}
+section article.unitTitle .msgBox ul.surveyBox li .boxtr {
+    margin: 0;
+}
+
+footer .footerHd {padding: 40px 0 30px 0;}
+footer .footerHd .subnav {padding: 0 40px 40px 40px;}
+footer .footerHd .shareBox {
+    position: relative;
+    top: auto;
+    right: auto;
+    width: auto;
+    padding: 40px 40px 40px 40px;
+    border-top: 1px rgba(255,255,255,0.3) solid;
+}
+footer .footerHd .pureBox {
+    position: relative;
+    bottom: auto;
+    right: auto;
+    width: auto;
+    padding: 30px 40px 0 40px;
+    border-top: 1px rgba(255,255,255,0.3) solid;
+}
+footer .footerHd .shareBox span {
+    float: left;
+    display: block;
+    margin: 0 27px 0 0;
+}
+
+
+
+}
+@media only screen 
+and (max-width : 840px) {
+section article.productList .container.max .item {
+    width: 100%;
+}
+section article.productList .item .introBox {
+	display: block !important;
+}
+section article.productList .introBox.min {
+	display: none !important;
+}
+header .subnav .main > div {
+    width: 100%;
+	display: block; 
+	*display: block;
+}
+header .subnav .main .home .hd,
+header .subnav .main .home .bd,
+header .subnav .main .office .hd,
+header .subnav .main .office .bd {
+    width: 100%;
+    margin: 0 auto;
+}
+header .subnav .main .home .bd,
+header .subnav .main .office .bd {
+	display: none;
+}
+header .subnav .main .home .hd,
+header .subnav .main .office .hd {
+    border: 0;
+    border-top: 1px #d0d0d0 solid;
+}
+header .subnav {
+    margin: 0 -20px;
+    display: block;
+    width: auto;
+}
+header .subnav .main {
+    padding: 0;
+}
+header .subnav .hd a {
+    line-height: 56px;
+    text-align: left;
+    padding: 0 20px;
+}
+header .subnav .main .box {
+    padding: 0 20px;
+}
+/*
+article.seriesList .item {
+    float: none;
+    width: 100%;
+}*/
+section article.bannerBox .bannerFt.busines .title {
+    font-size: 45px;
+}
+section article.locationConBox .locationList .item .boxBd ul li,
+section article.locationConBox .locationList .item .boxBd ul li:last-child {
+    float: none;
+    width: 100%;
+    margin: 0 0 10px 0;
+}
+section article.logoBox .container .item {
+    width: 50%;
+}
+article.serviceList .item .photo .title h2 {
+    font-size: 42px;
+    line-height: 46px;
+}
+article.serviceList .item .conBox {
+    padding: 40px 0;
+}
+article.serviceList .item .conBox .title {
+    width: 100%;
+    margin: 0 auto;
+    height: auto;
+    text-align: left;
+}
+article.serviceList .item .conBox .title .en { font-size: 24px; line-height: 30px;}
+article.serviceList .item .conBox .title .ch { font-size: 22px; line-height: 30px;}
+article.serviceList .item .conBox .title .icon {
+    width: 55px;
+}
+article.serviceList .item .conBox .title .icon img {
+    width: 100%;
+}
+article.serviceList .item .conBox .btn {
+    width: 100%;
+    text-align: center;
+}
+section article.personalBox .memberSurvey fieldset .box label,
+section article.personalBox .memberSurvey fieldset .box .con {
+    float: none;
+    width: 100%;
+}
+section article.personalBox .memberSurvey fieldset .box.max label {
+    display: block;
+    margin: 0 0 2% 0;
+}
+
+article.serviceContent .title .versionBox {
+    width: 92%;
+    padding: 15px;
+    margin: 0 0 20px 0;
+}
+article.serviceContent .title .versionBox .boxtr {
+	display: block; 
+	*display: block;
+    width: auto;
+}
+article.serviceContent .title .versionBox .boxtr:first-child {
+    margin: 0 0 15px 0;
+}
+.bx-wrapper .bx-viewport ul li {
+    /*width: 100% !important;*/
+}
+
+
+}
+@media only screen 
+and (max-width : 767px) {
+section article.unitList .adBox/*,
+section article.unitList a.eventBox*/ {
+    display: none;
+}
+section article.unitList .titleLr,
+section article.unitList .titleRl {
+    width: 100%;
+}
+section article.unitList .titleLr { left: -100%;}
+section article.unitList .titleRl { right: -100%;}
+
+section article.unitList a.scrollDownNews,
+section article.unitList a.scrollDownClients,
+section article.unitList a.eventBox {
+    padding: 0 15px;
+}
+section article.unitList a.scrollDownNews {
+    left: 10px;
+}
+section article.unitList a.scrollDownClients {
+    right: 10px;
+}
+section article.unitList a.eventBox {
+    left: 80px;
+    padding: 0 15px 0 25px;
+    z-index: 1;
+    background: #f4f4f4 url(/Content/images/icon/bg_event_tab.gif) repeat-y;
+}
+section article.unitList a.eventBox img {
+    display: none;
+}
+
+
+/*
+section article.unitList .titleLr .conBox .title,
+section article.unitList .titleRl .conBox .title {
+    left: 20px;
+    right: 20px;
+}
+section article.unitList .conBox span.btnBusiness,
+section article.unitList .conBox span.btnHome {
+    top: 65%;
+}
+*/
+
+section article.clientsList .container .item {
+    width: 50%;
+}
+section article.productConBox .setupbox .mainbox > div {
+    margin: 0 0 40px 0;
+    width: 100%;
+	display: block; 
+	*display: block;
+}
+section article.productConBox .textbox {
+    width: auto;
+    padding: 60px 40px;
+	display: block; 
+	*display: block;
+}
+section article.productConBox .textbox + .textbox {
+    padding: 0 40px 60px 40px;
+}
+section article.productConBox .iconbox,
+section article.productConBox .conbox {
+	display: block; 
+	*display: block;
+}
+section article.productConBox .iconbox {
+    color: #000;
+    line-height: 40px;
+    padding: 0 0 0 40px;
+}
+section article.personalBox .memberPersonal fieldset .box label,
+section article.personalBox .memberPersonal fieldset .box .con {
+    float: none;
+}
+section article.personalBox .memberPersonal fieldset .box label {
+    display: block;
+    width: 100%;
+    padding: 0 0 10px 0;
+}
+section article.personalBox .memberPersonal fieldset .box label.max { padding: 0 0 10px 0;}
+section article.personalBox .memberPersonal fieldset .box label span { display: inline;}
+section article.personalBox .memberPersonal fieldset .box .con { width: 100%;}
+section article.personalBox .memberPersonal fieldset span.error,
+section article.shoppingBox .otherOrder fieldset span.error { margin: 0;}
+section article.personalBox .memberPersonal fieldset .btnBox .btnBoxLeft,
+section article.personalBox .memberPersonal fieldset .btnBox .btnBoxRight,
+section article.personalBox .memberSurvey fieldset .btnBox .btnBoxLeft,
+section article.personalBox .memberSurvey fieldset .btnBox .btnBoxRight {
+    float: none;
+    width: 100%;
+}
+section article.personalBox .memberSurvey fieldset .btnBox .btnBoxLeft,
+section article.personalBox .memberPersonal fieldset .btnBox .btnBoxLeft {
+    margin: 0 0 20px 0;
+}
+section article.personalBox .memberPersonal fieldset .box .con label {
+    display: inline;
+}
+section article.personalBox .memberPersonal fieldset .box.min label {
+    float: left;
+    display: inline;
+    padding: 24px 0;
+    width: 20%;
+    min-width: 60px;
+}
+section article.personalBox .memberPersonal fieldset .box.min .con { 
+    width: 100%;
+}
+section article.shoppingBox .tabDetail .total .coupon {
+    position: inherit;
+    left: 10px;
+    top: 0;
+    width: 100%;
+}
+section article.shoppingBox .tabDetail .total .coupon .box {
+    height: 50px;
+    margin: 0 10px 0 0;
+}
+section article.shoppingBox .otherOrder fieldset .box label,
+section article.shoppingBox .otherOrder fieldset .box .con {
+    float: none;
+}
+section article.shoppingBox .otherOrder fieldset .box label {
+    display: block;
+    width: 100%;
+    padding: 0 0 10px 0;
+}
+section article.shoppingBox .otherOrder fieldset .box .con {
+    width: 100%;
+}
+section article.shoppingBox .otherOrder fieldset .box .con label {
+    display: inline;
+}
+/*
+section article.shoppingBox .otherOrder fieldset .box.min label {
+    float: left;
+    display: inline;
+    padding: 24px 0;
+    width: 20%;
+    min-width: 60px;
+}
+section article.shoppingBox .otherOrder fieldset .box.min .con { 
+    width: 100%;
+}
+*/
+section article.proList .taskBoxbd .explainbox {
+    width: 480px;
+}
+section article.proList .taskBoxbd .explainbox .product {
+    position: absolute;
+    width: 480px;
+    height: 480px;
+}
+section article.proList .taskBoxbd .explainbox .product .icon1 { top: 120px; left: -20px;}
+section article.proList .taskBoxbd .explainbox .product .icon2 { top: 340px; left: 40px;}
+section article.proList .taskBoxbd .explainbox .product .icon3 { top: 30px;  left: 300px;}
+section article.proList .taskBoxbd .explainbox .product .icon4 { top: 260px; left: 360px;}
+section article.proList .taskBoxbd .explainbox .product .icon5 { top: 360px; left: 270px;}
+
+article.serviceContent .serviceNav {
+    display: none;
+}
+article.serviceContent .title {
+    padding: 90px 120px 60px 40px;
+    color: #fff;
+}
+article.seriesList .item .photo .title,
+section article.bannerBox .bannerHd .title {
+    display: none;
+}
+
+article.howChoose .howChooseBd .resultBox ol.stepBox {
+    display: table;
+    text-align: center;
+}
+article.howChoose .howChooseBd .resultBox ol.stepBox li {
+	display: inline-block;
+    float: none;
+    width: auto;
+    margin: 10px 0;
+}
+article.howChoose .howChooseBd .resultBox ol.stepBox li .hd,
+article.howChoose .howChooseBd .resultBox ol.stepBox li .ft {
+	display: table-cell; 
+	*display: inline;
+	zoom: 1;
+	vertical-align: middle;
+}
+article.howChoose .howChooseBd .resultBox ol.stepBox li .hd {
+    width: 200px;
+    height: auto;
+}
+article.howChoose .howChooseBd .resultBox ol.stepBox li .hd .bd {
+    padding: 10px 0;
+    height: auto;
+    background: #80bef5;
+}
+article.howChoose .howChooseBd .resultBox ol.stepBox li .hd .bd span {
+    display: inline-block;
+    padding: 0 0 0 10px;
+}
+article.howChoose .howChooseBd .resultBox ol.stepBox li .ft {
+    padding: 0;
+    line-height: 50px;
+}
+article.howChoose .howChooseBd .resultBox ol.stepBox li .ft .bd {
+    padding: 5px;
+    border: 1px #fff solid;
+    border-left: 0;
+}
+article.howChoose .howChooseBd .resultBox ol.stepBox li .ft .bd span {
+	display : block;
+    padding: 10px 30px 10px 10px;
+}
+
+
+section article.unitMainList .icon {
+    display: none;
+}
+section article.unitMainList .bx-wrapper .bx-pager {
+	top: 120px;
+}
+section article.unitMainList .bxslider h2 {
+    top: 160px;
+    font-size: 30px;
+    line-height: 34px;
+}
+section article.unitMainList .bxslider h2 em { font-size: 24px;}
+section article.unitMainList .bxslider h2 span.blue { font-size: 32px;}
+section article.unitMainList.home .bxslider .part1 .bg_img,
+section article.unitMainList.home .bxslider .part2 .bg_img {
+	top: -160px !important;
+	-webkit-background-size: 100px auto !important;
+	-o-background-size: 100px auto !important;
+	background-size: 100px auto !important;
+}
+section article.unitMainList.home .bxslider .part3 .bg_img {
+	top: -100px !important; 
+	background: url(images/banner/index_home_part3_m_1920.png) no-repeat 35% 30% !important;
+	-webkit-background-size: 270% auto !important;
+	-o-background-size: 270% auto !important;
+	background-size: 270% auto !important;
+}
+section article.unitMainList.business .bxslider .part1 .bg_img {
+	top: 120px !important;
+	background: url(images/banner/businessProduct.png) no-repeat center 30% !important; 
+	-webkit-background-size: 150% auto !important;
+	-o-background-size: 150% auto !important;
+	background-size: 150% auto !important;
+}
+section article.unitMainList.business .bxslider .part2 {
+	background: url(images/banner/businessProduct2_m.png) no-repeat 48% 180px !important;
+	-webkit-background-size: 160% auto !important;
+	-o-background-size: 160% auto !important;
+	background-size: 160% auto !important;
+}
+section article.unitMainList .bxslider .form,
+section article.unitMainList .bxslider .textCe {
+    display: none;
+}
+section article.unitMainList .bxslider .model {
+    min-height: 640px;
+}
+section article.unitMainList .bxslider li.part3 .icon1,
+section article.unitMainList .bxslider li.part3 .icon2 {
+    left: 60%;
+    font-size: 12px;
+    line-height: 16px;
+}
+section article.unitMainList .bxslider li.part3 .icon1 {
+    top: 220px;
+    width: 150px;
+    height: 140px;
+    margin: 0 0 0 -180px;
+    background: url(images/banner/icon_home_part3-1.png) no-repeat bottom;
+	-webkit-background-size: 100% auto;
+	-o-background-size: 100% auto;
+	background-size: 100% auto;
+}
+section article.unitMainList .bxslider li.part3 .icon2 {
+    top: 270px;
+    width: 120px;
+    height: 130px;
+    margin: 0 0 0 -30px;
+    padding: 0 0 0 20px;
+    text-align: right;
+    background: url(images/banner/icon_home_part3-2.png) no-repeat bottom;
+	-webkit-background-size: 100% auto;
+	-o-background-size: 100% auto;
+	background-size: 100% auto;
+}
+section article.unitMainList .bxslider li.part3 .icon1 b,
+section article.unitMainList .bxslider li.part3 .icon2 b {
+    font-size: 14px;
+}
+
+section article.bannerBox .bannerFt.home .con .title,
+section article.bannerBox .bannerFt.busines .con .title {
+    font-size: 30px;
+}
+section article.bannerBox .bannerFt.home .con img.product {
+	top: 180px !important;
+}
+section article.bannerBox.DHseries .bannerFt.home .con img.product {
+	top: 40px !important;
+}
+
+section article.unitTitle .locationBox {
+    min-height: 160px;
+}
+section article.unitTitle .locationBox .buyArea  { left: 0; right: 51%; width: auto;}
+section article.unitTitle .locationBox .buyClass { left: 51%; right: 0; width: auto;}
+section article.unitTitle .locationBox .buyText  { left: 0; right: 100px; top: 80px;}
+section article.unitTitle .locationBox .buyBtn   { right: 0; width: 100px; top: 80px;}
+section article.unitTitle .locationBox .reset {
+    top: 150px;
+}
+
+
+
+}
+@media only screen 
+and (max-width : 720px) {
+section article.proList .boxHd .title {
+    margin: -80px 5% 0;
+}
+section article.proList .boxHd .title h3 {
+    font-size: 28px;
+    line-height: 32px;
+	padding: 10px 0;
+	margin: 0 0 10px;
+}
+article.serviceList .item .conBox .title,
+article.serviceList .item .conBox .btn {
+	display: block; 
+	*display: block;
+}
+article.serviceList .item .conBox .title {
+    margin: 0 auto 20px auto;
+}
+article.serviceList .item .conBox .title .titleBd {
+    display: block;
+    max-width: 300px;
+    margin: 0 auto;
+}
+}
+@media only screen 
+and (max-width : 680px) {
+article.howChoose .howChooseBd .chooseBox ol.stepBox li {
+    width: 100%;
+}
+article.howChoose .howChooseBd .chooseBoxHd {
+	max-width: initial;
+}
+article.howChoose .howChooseBd .main {
+	min-width: initial;
+	min-height: initial;
+	width: auto;
+}
+article.howChoose .howChooseBd h3,
+article.howChoose .howChooseBd h3.en {
+    font-size: 24px;
+    line-height: 28px;
+}
+article.howChoose .howChooseBd .text {
+    margin: 0 0 40px 0;
+}
+article.howChoose .howChooseBd .chooseBox .selectBox {
+	min-height: 240px;
+}
+article.howChoose .howChooseBd .chooseBox ol.stepBox {
+    margin: 0 0 20px 0;
+    height: 60px;
+}
+article.howChoose .howChooseBd .chooseBox ol.stepBox li {
+    line-height: 60px;
+}
+article.howChoose .howChooseBd .chooseBox .selectBox fieldset input[type=button] {
+    position: absolute;
+    top: 90px;
+    right: 50%;
+    margin: 0 -60px 0 0;
+}
+article.howChoose .howChooseBd .chooseBox .selectBox .selectboxit-container span {
+    height: 55px;
+    line-height: 55px;
+}
+article.howChoose .howChooseBd .chooseBox .selectBox .selectboxit-arrow-container { right: auto; left: 0;width: 34px; background: #000;}
+article.howChoose .howChooseBd .chooseBox .selectBox .selectboxit-default-arrow { margin: -4px auto 0; border-left: 8px solid transparent; border-right: 8px solid transparent; border-top: 8px solid #fff;}
+article.howChoose .howChooseBd .chooseBox .selectBox .selectboxit-text { text-indent: 35px; font-size: 12px;}
+
+section article.bannerBox .bannerFt .banner .desc,
+section article.unitTitle .icon {
+    display: none;
+}
+section article.unitTitle .title {
+	padding: 0 0 0 20px;
+	text-align: left;
+}
+section article.unitTitle .main {
+    padding: 50px 0;
+}
+article.seriesList .item .conBox .title,
+article.seriesList .item .conBox .btn {
+    height: auto;
+	display: block; 
+	*display: block;
+    margin: 0 auto 20px auto;
+    text-align: center;
+}
+article.seriesList .item .conBox .title {
+    width: auto;
+}
+article.seriesList .item .conBox .title .titleBd {
+    display: block;
+    margin: 0 auto;
+    max-width: 300px;
+}
+article.seriesList .item .conBox {
+    padding: 40px 0;
+}
+article.seriesList .item .title .ser,
+article.seriesList .item .title .sercon,
+article.seriesList .item .conBoxMin {
+	display: block; 
+	*display: block;
+}
+article.seriesList .item .minList .title .ser,
+article.seriesList .item .minList .title .sercon {
+	display: table-cell; 
+	*display: inline;
+}
+
+article.seriesList .item .minList {
+    padding: 0;
+}
+article.seriesList .item .conBoxMin {
+    width: 100%;
+    padding: 20px 0;
+    border-bottom: 1px #ccc solid;
+}
+article.seriesList .item .conBoxMin:last-child {
+    border-bottom: 0;
+}
+article.seriesList .item .conBoxMin .title {
+    position: relative;
+    top: -30px;
+    height: 140px;
+}
+article.seriesList .item .conBoxMin .btn {
+    margin: 15px 0 0 -68px;
+}
+article.seriesList .item .conBox .btn {
+    width: auto;
+    margin: 0 auto;
+}
+article.seriesList .item .conBox .title .ser {
+    padding: 0 0 4px 0;
+}
+article.serviceList .item .photo .box {
+    background-position: left center;
+}
+
+
+
+
+
+}
+
+@media only screen 
+and (max-width : 640px) {
+article.contactBox > div {
+    display: block;
+    width: 100%;
+}
+article.contactBox .tel a {
+    border: 0;
+    border-bottom: 1px solid #d0d0d0;
+}
+section article.newsList .newsBox .owl-theme .owl-nav { display:none;}
+section article.productList .container .item { width: 100%;}
+section article.otherBox.home .container .item { width: 50%;}
+section article.productConBox .productlist { 
+    width: 90%;
+}
+section article.productConBox .detailBox { 
+    width: 90%;
+    margin: 40px auto 0 auto;
+}
+section article.productConBox .detailBox .tabDetail .boxtdl,
+section article.productConBox .detailBox .tabDetail .boxtdr { width: 50%;}
+section article.productList .descBox .desc .icon,
+section article.productList .descBox .desc .text,
+section article.productConBox .descBox .desc .icon,
+section article.productConBox .descBox .desc .text {
+	vertical-align: middle;
+}
+section article.bannerBox .bannerFt.busines .title {
+    font-size: 25px;
+}
+.memberBox,
+.cartBox {
+    width: 100%;
+}
+section article.recordBox .productList {
+    margin: 0;
+}
+section article.recordBox .productList .photo,
+section article.recordBox .productList .tabDetail { 
+    margin: 0 5%;
+	display: block; 
+	*display: block;
+    width: auto;
+}
+section article.recordBox .productList .photo { 
+    text-align: center;
+}
+section article.proList .taskBox,
+section article.proList .taskBoxbd {
+	position: relative;
+	max-width: 1360px;
+	margin: 0 auto;
+    padding: 80px 20px 40px 20px;
+}
+section article.proList .taskBox ul {
+    width: 100%;
+}
+section article.proList .taskBox ul li {
+    float: none;
+    width: 100%;
+    margin: 5px 0;
+    text-align: center;
+}
+section article.proList .taskBox .desc {
+	position: relative;
+	bottom: auto;
+	right: auto;
+    text-align: center;
+}
+section article.proList .taskBoxbd .explainbox .bg {
+    width: 300px;
+    margin: 0 auto;
+}
+section article.proList .taskBoxbd .explainbox {
+    width: 100%;
+}
+section article.proList .taskBoxbd .explainbox .product {
+    position: absolute;
+    left: 50%;
+    width: 300px;
+    height: 300px;
+    margin: 0 0 0 -150px;
+}
+section article.proList .taskBoxbd .explainbox .product .icon {
+    width: 100px;
+}
+section article.proList .taskBoxbd .explainbox .product .icon1 { top: 60px; left: -20px;}
+section article.proList .taskBoxbd .explainbox .product .icon2 { top: 210px; left: 10px;}
+section article.proList .taskBoxbd .explainbox .product .icon3 { top: 10px;  left: 205px;}
+section article.proList .taskBoxbd .explainbox .product .icon4 { top: 150px; left: 210px;}
+section article.proList .taskBoxbd .explainbox .product .icon5 { top: 220px; left: 160px;}
+section article.proList .conFt .main {
+    padding: 80px 0 0;
+}
+section article.otherBox .owl-carousel { 
+    width: 60%;
+}
+section .typeNav {
+    position: relative;
+    top: auto;
+    right: auto;
+    display: table;
+    width: 100%;
+    padding: 0 0 40px 0;
+    text-align: center;
+    background: #f4f4f4;
+}
+section .typeNav .typeNavBox {
+    display: inline-block;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 10px 0 10px;
+    background: #2f7dcd;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+}
+section .typeNav a {
+    padding: 0 10px;
+    color: #fff;
+    font-size: 14px;
+    border-left: 1px #fff solid;
+}
+section article.seriesMainList .smslider_titleBox,
+section article.seriesMainList .smslider_icons {
+	display: none;
+}
+section article.seriesMainList ul.smslider li a {
+    display: block;
+}
+
+
+
+}
+
+@media only screen 
+and (max-width : 520px) {
+article.howChoose .howChooseHd .btn span,
+article.btnHowChooseDown .btnHowChooseDownHd .btn span {
+    position: absolute;
+    top: 12px;
+    left: 20px;
+	line-height: normal;
+}
+.bannerBox article.howChoose .howChooseHd .btn span {
+    top: -30px;
+}
+.bannerBox article.howChoose .howChooseHd {
+    margin: -63px auto 0 auto;
+}
+article.howChoose .howChooseHd .btn span img,
+article.btnHowChooseDown .btnHowChooseDownHd .btn span img {
+	transform:rotate(-90deg);
+	-ms-transform:rotate(-90deg);
+	-moz-transform:rotate(-90deg);
+	-webkit-transform:rotate(-90deg);
+}
+section article.productConBox .compareBox .typeBox {
+    display: block;
+    margin: 10px 0 0 0;
+}
+section article.newsList .desc {
+    left: 0;
+    width: 100%;
+}
+section article.newsList .newsBox .owl-carousel {
+    width: 100%;
+}
+
+article.serviceContent .title {
+    font-size: 32px;
+    line-height: 38px;
+	padding: 20px 20px 120px 20px;
+}
+article.serviceContent .bx-controls-direction {
+    height: 60px;
+    margin: 0 -100px 0 0;
+    position: absolute;
+    right: 50%;
+    top: 100%;
+    width: 200px;
+}
+article.serviceContent .bx-wrapper .bx-controls-direction a {
+	float: left;
+    margin: 0 20px;
+}
+article.serviceContent .bg {
+    padding-top: 61px;
+    min-height: initial;
+}
+article.serviceContent .stepBox .step1, 
+article.serviceContent .stepBox .step2, 
+article.serviceContent .stepBox .step3, 
+article.serviceContent .stepBox .step4 {
+    width: auto;
+}
+article.serviceContent fieldset .box {
+    width: 100%;
+}
+
+section article.unitTitle .btnHowChoose,
+section article.unitTitle .btnLocation {
+    position: relative;
+    top: auto;
+    right: auto;
+    margin: 20px 0 0 0;
+    text-align: center;
+}
+section article.unitTitle .tel {
+    position: relative;
+    top: auto;
+    right: auto;
+    margin: 20px 0 0 40px;
+}
+section article.unitTitle .title {
+	text-align: center;
+	display: block; 
+	*display: block;
+	padding: 0;
+}
+section article.unitTitle .title .ser {
+    padding: 0 4px 0 0;
+}
+section article.otherBox.busines .container .item {
+    width: 100%; 
+    border-bottom: 1px #555 solid;
+}
+section article.recordBox .productList .tabDetail .boxtdl.type,
+section article.recordBox .productList .tabDetail .boxtdr.grade { 
+	display: block; 
+	*display: block;
+    width: auto;
+}
+section article.recordBox .productList .btn input[type="submit"] {
+    width: 100%;
+}
+section article.orderConBox .tabDetail .boxtr,
+section article.shoppingBox .tabDetail .boxtr { 
+    margin: 0 0 40px 0;
+    background: #fff;
+}
+section article.orderConBox .tabDetail .boxtr:first-child { 
+    margin: 0;
+}
+section article.orderConBox .tabDetail .boxth,
+section article.shoppingBox .tabDetail .boxth {
+	display: none; 
+}
+section article.orderConBox .productList .tabDetail .col1,
+section article.orderConBox .productList .tabDetail .col2,
+section article.orderConBox .productList .tabDetail .col3,
+section article.orderConBox .productList .tabDetail .col4,
+section article.orderConBox .productList .tabDetail .col5,
+section article.orderConBox .orderList .tabDetail .col1,
+section article.orderConBox .orderList .tabDetail .col2,
+section article.orderConBox .orderList .tabDetail .col3,
+section article.orderConBox .orderList .tabDetail .col4,
+section article.orderConBox .orderList .tabDetail .col5,
+section article.shoppingBox .productList .tabDetail .col1,
+section article.shoppingBox .productList .tabDetail .col2,
+section article.shoppingBox .productList .tabDetail .col3,
+section article.shoppingBox .productList .tabDetail .col4,
+section article.shoppingBox .productList .tabDetail .col5 { 
+    width: auto;
+    padding: 15px 15px;
+}
+section article.shoppingBox .productList .tabDetail .col2,
+section article.shoppingBox .productList .tabDetail .col3 {
+	text-align: right;
+}
+section article.orderConBox .orderList .tabDetail .col1,
+section article.orderConBox .orderList .tabDetail .col2 { text-align: right;}
+section article.orderConBox .tabDetail .boxtd,
+section article.shoppingBox .tabDetail .boxtd { 
+    width: auto;
+    text-align: right;
+	display: block;
+	*display: block;
+}
+section article.orderConBox .tabDetail .col1 { 
+    text-align: left;
+}
+section article.shoppingBox .selectboxit-container { 
+    width: 60%;
+}
+section article.orderConBox .otherOrder .otherBox,
+section article.shoppingBox .otherOrder .otherBox { 
+    padding: 20px 20px 60px 20px;
+}
+section article.shoppingBox .otherOrder .paymentBox .otherBox { 
+    padding: 20px;
+}
+section article.shoppingBox .otherOrder .paymentBox fieldset .box .con {
+    width: 100%;
+}
+section article.orderConBox .otherOrder .otherBox p.desc,
+section article.shoppingBox .otherOrder .otherBox p.desc { 
+    bottom: 20px;
+    left: 20px;
+    right: 20px;
+}
+section article.orderConBox .tabDetail .boxtd span.mbd,
+section article.shoppingBox .tabDetail .boxtd span.mbd { 
+    display: block;
+    float: left;
+    width: 70px;
+    text-align: left;
+}
+section article.orderConBox .tabDetail .total .totalbox { 
+    margin: 0 0 10px 0;
+}
+section article.orderConBox .tabDetail .total .desc { 
+    position: relative;
+    bottom: auto;
+    left: auto;
+    clear: both;
+    width: 100%;
+    padding: 15px 0 0 0;
+    border-top: 1px #d7d7d7 solid;
+}
+section article.shoppingBox .tabDetail .boxtd .photo { width: 30%;}
+section article.shoppingBox .tabDetail .boxtd .title { width: 70%;}
+
+section article.proList .boxBd .msgBox a {
+    display: block;
+    float: left;
+}
+section article.logoBox .container .item {
+    width: 100%;
+}
+article.serviceList .item .photo .title h2 {
+    font-size: 38px;
+    line-height: 42px;
+}
+article.serviceList .item .photo img {
+    min-width: 1024px;
+}
+section article.unitTitle .msgBox,
+section article.unitTitle .register {
+    padding: 0 20px;
+}
+section article.unitTitle .btn,
+section article.unitTitle .clock {
+    padding: 0 0 0 20px;
+}
+section article.unitTitle .register input[type="submit"] {
+    float: right;
+    width: 25%;
+    line-height: 64px;
+}
+section article.productConBox .detailBox .tabDetail .boxtdl.type,
+section article.productConBox .detailBox .tabDetail .boxtdr.price { 
+    width: 100%;
+	display: block; 
+	*display: block;
+    border-bottom: 1px #d7d7d7 solid;
+}
+section article.productConBox .detailBox .tabDetail .boxtdl.type { 
+	font-size: 24px;
+}
+section article.productConBox .detailBox .tabDetail .boxtdr.price { 
+    margin: 15px 0 0 0;
+}
+
+
+article.howChoose.search .howChooseBd .main {
+    padding: 60px 20px 100px 20px;
+}
+article.howChoose .howChooseBd .resultBox ol.stepBox {
+    display: block;
+}
+article.howChoose .howChooseBd .resultBox ol.stepBox li {
+    display: block;
+    margin: 20px auto;
+    width: 212px;
+}
+article.howChoose .howChooseBd .resultBox ol.stepBox li .hd,
+article.howChoose .howChooseBd .resultBox ol.stepBox li .ft {
+    width: 100%;
+	display: block; 
+	*display: block;
+}
+article.howChoose .howChooseBd .resultBox ol.stepBox li .hd {
+    width: 200px;
+    height: auto;
+    margin: 0 0 -1px 0;
+}
+article.howChoose .howChooseBd .resultBox ol.stepBox li .hd .bd {
+    padding: 20px 0;
+}
+article.howChoose .howChooseBd .resultBox ol.stepBox li .ft .bd {
+    border: 1px #fff solid;
+}
+article.howChoose .howChooseBd .resultBox ol.stepBox li .ft .bd span {
+    padding: 0 30px 0 10px;
+}
+article.howChoose .howChooseBd .desc {
+    right: 20px;
+}
+
+section article.unitMainList .bxslider .textLr,
+section article.unitMainList .bxslider .textRl {
+    display: none;
+}
+
+section article.bannerBox .bannerFt2.home .photo img,
+section article.bannerBox .bannerFt2.busines .photo img {
+    height: 540px;
+}
+section article.bannerBox .bannerFt2 .titleBoxs {
+    top: 10%;
+    left: 10%;
+    right: 10%;
+    width: 80%;
+    max-width: initial;
+}
+section article.bannerBox .bannerFt2 .titleBoxs .title .ser,
+section article.bannerBox .bannerFt2.busines .titleBoxs .title .ser {
+    display: block;
+    font-size: 42px;
+    line-height: 1.1em;
+}
+section article.bannerBox .bannerFt2 .titleBoxs .title .ser.tw,
+section article.bannerBox .bannerFt2.busines .titleBoxs .title .ser.tw {
+    font-size: 42px;
+}
+section article.bannerBox .bannerFt2 .titleBoxs .title {
+    margin: 0 0 10px 0px;
+}
+section article.bannerBox .bannerFt2 .titleBoxs .text {
+    font-size: 18px;
+}
+article.serviceList .item .photo .title h2 {
+    font-size: 36px;
+    line-height: 42px;
+}
+
+
+
+}
+@media only screen 
+and (max-width : 480px) {
+section article.unitList .titleSlide_h1 {
+    font-size: 32px;
+    margin-top: -90px;
+}
+section article.unitList .titleSlide_h3 {
+    margin-top: -35px;
+}
+
+section article.clientsList .container .item {
+    width: 100%;
+}
+.memberBox .loginBox,
+.memberBox .joinBox,
+.memberBox .agreeBox,
+.memberBox .againAgreeBox,
+.cartBox .cartBoxBd {
+    width: 85%;
+}
+header {height: 60px;}
+section {margin: 61px 0 0;}
+article.howChoose .howChooseBd .resultBox {	padding-top: 61px;}
+header .main .logo {top: 10px;}
+header .main nav {margin-top: 15px;}
+header .main nav ul.nav {top: 61px;}
+header .main nav ul.nav li {line-height: 36px;}
+header .subnav .main .box {display: block; width: 100%;}
+header .subnav .hd a {line-height: 40px;}
+
+section article.productList .container.max .item .boxHd,
+section article.productList .container.max .item .boxBd,
+section article.productList .container.max .item .boxFt {
+    max-width: 240px;
+}
+
+/*section article.bannerBox .bannerFt.busines .con { padding: 20px 0;}*/
+
+section article.bannerBox .bannerFt.home .conbox,
+section article.bannerBox .bannerBd.home,
+section article.bannerBox .bannerFt.busines .conbox,
+section article.bannerBox .bannerBd.busines {
+    padding: 20px;
+}
+/*
+section article.bannerBox .bannerFt.busines .con {
+    padding: 20px;
+    width: auto;
+}*/
+section article.bannerBox .bannerFt.home .conboxbd,
+section article.bannerBox .bannerFt.busines .conboxbd {
+    width: auto;
+    padding: 100px 0;
+}
+section article.bannerBox .bannerFt.busines .con .conbox { 
+    padding: 20px;
+}
+
+section article.bannerBox .bannerBd.home h2 {
+    font-size: 28px;
+    line-height: 32px;
+}
+section article.bannerBox .bannerFt.busines .con .conbox p,
+section article.bannerBox .bannerFt.home .conbox p {
+    line-height: 22px;
+}
+section article.otherBox.home .container .item { width: 100%; border-bottom: 1px #ccc solid;}
+section article.otherBox .container .item {
+    padding: 0 0 40px 0;
+}
+section article.otherBox .container .item .title .ser { padding: 0 4px 0 4px;}
+section article.productList .descBox { margin: 40px 20px 0;}
+section article.bannerBox .bannerFt .banner .desc .icon,
+section article.bannerBox .bannerFt .banner .desc .text {
+	display: block; 
+	*display: block;
+}
+section article.productList {
+    padding: 40px 0;
+}
+section article.productConBox .productlist { width: 90%;}
+section article.productConBox .textbox {
+    padding: 40px 20px;
+}
+section article.productConBox .textbox + .textbox {
+    padding: 0 20px 40px 20px;
+}
+
+section article.proList .boxBd {
+    padding: 40px 20px 20px;
+}
+section article.proList .boxBd .proBox h3 {
+    margin: 0 0 20px;
+}
+section article.proList .conBd .title {
+    margin: 0;
+    position: relative;
+    top: auto;
+    left: auto;
+    right: auto;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 120px;
+}
+section article.proList .conBd .title.right {
+    left: auto;
+    right: auto;
+}
+section article.proList .conBd .title span {
+    font-size: 18px;
+    font-weight: 200;
+}
+section article.proList .conFt .main {
+    padding: 80px 0 0;
+}
+section article.proList .conFt .text {
+    margin: 0 0 -40px;
+}
+section article.proList .conFt .tel {
+    width: 280px;
+}
+section article.proList .conBd .shop {
+   text-align: center;
+}
+section article.otherBox .owl-carousel { 
+    width: 50%;
+}
+
+section article.unitTitle .title {
+	padding: 0;
+}
+section article.unitTitle .tel {
+    width: 80px;
+    margin: 20px auto 0 auto;
+    text-align: center;
+}
+
+article.seriesList .item .conBox .title .en { font-size: 32px; line-height: 32px;}
+article.seriesList .item .conBox .title .ch { font-size: 28px; line-height: 32px;}
+
+section article.bannerBox .bannerFt .conbox {
+	background: url(images/icon/icon_info_s.gif) no-repeat right top;
+}
+
+
+footer .footerHd .subnav {padding: 0 20px 40px 20px;}
+footer .footerHd .shareBox {padding: 40px 20px 40px 20px;}
+footer .footerHd .pureBox { padding: 30px 20px 0;}
+footer .footerFt {padding: 20px 20px 30px 20px;}
+footer .footerFt .logo, footer .footerFt .copyright {display: block; *display: block;}
+footer .footerFt .logo {margin: 0 0 5px 0;}
+}
+
+
+
+
+/**
+*
+* iPads
+*
+**/
+@media only screen
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) {
+header .main nav ul li a {
+    font-weight: 200;
+}
+section article.clientsList .container .item img,
+section article.logoBox .container .item img {
+    filter:alpha(opacity=100);
+    -moz-opacity: 1;
+    opacity: 1;
+}
+section article.unitList .adBox {
+    display: none;
+}
+/*
+input, select, textarea  { 
+	-webkit-appearance: none; 
+	border-radius: 0;
+}
+*/
+fieldset input[type=reset],
+fieldset input[type=submit],
+fieldset input[type=button],
+fieldset input[type=text],
+fieldset input[type=email],
+fieldset input[type=password],
+fieldset textarea {
+	-webkit-appearance: none; 
+	border-radius: 0;
+}
+
+#wrapper.page section article.otherBox {
+    display: none;
+}
+
+section article.unitList .video {
+    display: none;
+}
+section article.unitMainList .bxslider .model {
+    min-height: 680px;
+}
+section article.unitMainList .bxslider li.part3 .icon2 {
+    top: 430px;
+}
+section article.unitMainList .bxslider li.part3 .textRl {
+	left: 65%;
+	right: 40px;
+	bottom: 100px;
+}
+
+.page section,
+.homePage section,
+.homePageW section {
+    margin: 60px 0 0 0;
+}
+
+
+}
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) {
+section article.unitMainList .bxslider .form {
+    zoom: 0.9;
+}
+
+}
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape) {
+section article.unitMainList .bxslider .textCe {
+    display: none;
+}
+
+}
+/**
+*
+* iPhones 
+*
+**/
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 767px) {
+header .main nav ul li a {
+    font-weight: 200;
+}
+section article.clientsList .container .item img,
+section article.logoBox .container .item img {
+    filter:alpha(opacity=100);
+    -moz-opacity: 1;
+    opacity: 1;
+}
+section article.unitList .adBox {
+    display: none;
+}
+
+input, select, textarea  { 
+	/*-webkit-appearance: none; 
+	border-radius: 0;*/
+}
+fieldset input[type=reset],
+fieldset input[type=submit],
+fieldset input[type=button],
+fieldset input[type=text],
+fieldset input[type=email],
+fieldset input[type=password],
+fieldset textarea {
+	-webkit-appearance: none; 
+	border-radius: 0;
+}
+
+#wrapper.page section article.otherBox {
+    display: none;
+}
+
+section article.unitTitle .register input[type="submit"] {
+    line-height: 66px;
+}
+section article.unitTitle .msgBox ul.checkbox input[type="checkbox"] {
+    vertical-align: middle;
+}
+section article.unitMainList .bxslider .textCe,
+section article.unitList .video {
+    display: none;
+}
+section article.unitMainList .bxslider .model {
+    min-height: 540px;
+}
+
+.page section,
+.homePage section,
+.homePageW section {
+    margin: 60px 0 0 0;
+}
+
+
+
+}
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 767px) 
+and (orientation : portrait) {
+}
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 767px) 
+and (orientation : landscape) {
+}
+/**
+*
+* ratio: 1.5
+*
+**/
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+	   only screen and (min--moz-device-pixel-ratio: 1.5),
+	   only screen and (min-device-pixel-ratio: 1.5){
+}
+
