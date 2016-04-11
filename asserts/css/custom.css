@@ -27,3 +27,7 @@ section article.proList .boxBd .proBox h3 {
     	max-height: 75vh;
 	}
 }
+
+.fb-like {
+    padding:20px;
+}
